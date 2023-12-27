@@ -1,0 +1,132 @@
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    text-shadow: #000000 0 0 10px;
+    margin-bottom: 5px;
+}
+
+h2{
+    margin: 20px 0 15px 0;
+    padding: 0;
+    font-size: 19px;
+    color: bisque;
+    text-shadow: #531717 0 0 5px;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/*Goofy intro pagraph*/
+.intro{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    text-shadow: #000000 0 0 10px;
+}
+
+/* Copy Link to share button*/
+.share{
+    background-color: #6e1e1e;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    border: none;
+    margin: 20px 20px 0 0;
+    border-radius: 50px;
+}
+.share:hover{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+img[alt="share"]{
+    height: 40px;
+    width: auto;
+}
+
+/* Avatar */
+img[alt="avatar"]{
+    height: 150px;
+    width: auto;
+    border-radius:45%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Vertical conatiner */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+/* Links buttons*/
+.a{
+    width: 100%;
+}
+.link-button button{
+    width: 350px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 15px;
+    position: relative;
+}
+.link-button button::before{
+    content: "";
+}
+.link-button img{
+    position: absolute;
+    left: 7px; 
+    height: 35px;
+    width: auto;
+}
+.link-button p{
+    font-size: 15px;
+    font-weight: bold;
+    color: #360e0e;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.link-button button:hover{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+}
+
+.copyright{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    font-weight: bold;
+    color: #301209;
+}
+.copyright p{
+    margin: 0;
+    padding: 0;
+}
