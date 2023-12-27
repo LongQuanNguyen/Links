@@ -16,6 +16,6 @@ window.onload = function() {
     var viewport = document.getElementById('viewport');
     var screen = window.screen;
     if (screen.height <= 900 ) { 
-        viewport.setAttribute('content', 'width=device-width, initial-scale=0.8');
+        viewport.setAttribute('content', 'width=device-width, initial-scale=0.7');
     }
 }
