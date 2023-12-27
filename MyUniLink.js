@@ -11,12 +11,12 @@ function copyLink() {
     alert("Link copied to clipboard!");
 }
 
-// Make the zoom to 100% on desktop screen.
-// Default zoom is 70% for mobile.
+// Make the zoom to 70% on mobile screen height <= 900px
+// Default zoom is 100% for desketop screen.
 window.onload = function() {
     var viewport = document.getElementById('viewport');
     var screen = window.screen;
-    if (screen.height >= 900 ) { 
-        viewport.setAttribute('content', 'width=device-width, initial-scale=1.0');
+    if (screen.height <= 900 ) { 
+        viewport.setAttribute('content', 'width=device-width, initial-scale=0.7');
     }
 }
