@@ -10,3 +10,12 @@ function copyLink() {
 
     alert("Link copied to clipboard!");
 }
+
+// Make the zoom to 80% on mobile screen with height <= 900px
+window.onload = function() {
+    var viewport = document.getElementById('viewport');
+    var screen = window.screen;
+    if (screen.height <= 900 ) { 
+        viewport.setAttribute('content', 'width=device-width, initial-scale=0.8');
+    }
+}
