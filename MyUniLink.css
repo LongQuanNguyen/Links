@@ -41,7 +41,7 @@ p{
 .intro{
     margin-top: 0px;
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 14px;
     text-shadow: #000000 0 0 10px;
 }
 
@@ -90,8 +90,8 @@ img[alt="avatar"]{
     width: 100%;
 }
 .link-button button{
-    width: 350px;
-    height: 45px;
+    width: 330px;
+    height: 43px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,7 +105,7 @@ img[alt="avatar"]{
 }
 .link-button img{
     position: absolute;
-    left: 7px; 
+    left: 6px; 
     height: 35px;
     width: auto;
 }
@@ -122,7 +122,7 @@ img[alt="avatar"]{
 }
 
 .copyright{
-    margin-top: 30px;
+    margin-top: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
