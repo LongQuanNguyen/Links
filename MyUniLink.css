@@ -13,34 +13,37 @@ body{
     color: white;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 a{
     text-decoration: none;
 }
 
 h1{
     text-shadow: #000000 0 0 10px;
-    margin-bottom: 5px;
+    margin: 0 0 0 0;
     font-size: 25px;
 }
 
 h2{
-    margin: 12px 0 8px 0;
+    margin: 7px 0 0 0;
     padding: 0;
-    font-size: 17px;
+    font-size: 15px;
     color: bisque;
     text-shadow: #531717 0 0 5px;
 }
 
 p{
-    margin: 0;
+    margin: 0 0 0 0;
     padding: 0;
     text-align: center;
 }
 
 /*Goofy intro pagraph*/
 .intro{
-    margin-top: 0px;
-    margin-bottom: 10px;
+    margin: 0 0 0 0;
     font-size: 14px;
     text-shadow: #000000 0 0 10px;
 }
@@ -58,6 +61,7 @@ p{
 }
 .share:hover{
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 img[alt="share"]{
     height: 40px;
@@ -80,6 +84,7 @@ img[alt="avatar"]{
     align-items: center;
     justify-content: center;
     width: 70%;
+    gap: 10px;
 
     margin-top: 20%;
     margin-bottom: 20%;
@@ -97,7 +102,6 @@ img[alt="avatar"]{
     justify-content: center;
     border-radius: 25px;
     border: none;
-    margin-bottom: 10px;
     position: relative;
 }
 .link-button button::before{
@@ -115,10 +119,13 @@ img[alt="avatar"]{
     color: #360e0e;
     margin: 0;
     padding: 0;
-    text-decoration: none;
 }
 .link-button button:hover{
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+.link-button button:hover p {
+    color: grey;
 }
 
 .copyright{
@@ -133,4 +140,8 @@ img[alt="avatar"]{
 .copyright p{
     margin: 0;
     padding: 0;
+}
+
+.intro, .copyright p, h1, h2:hover{
+    cursor: default;
 }
